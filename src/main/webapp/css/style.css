@@ -1,0 +1,110 @@
+h1{
+    font-family: "Verdana";
+    color: #974A0F;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+h2{
+    font-family: "Verdana";
+    color: #974A0F;
+}
+h6{
+    font-size: 200%;
+    margin: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #FAF9F6;
+    margin: 0;
+    padding:0;
+}
+#newsItems{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#newsItems article{
+    margin-top: 2%;
+    padding: 2%;
+    border: 2px solid grey;
+    font-family: verdana;
+    box-shadow: 5px 5px 8px #888888;
+
+}
+#newsItems p{
+    display: block;
+}
+#newsItems article:first-line{
+    font-family: "Verdana bold";
+    font-weight: bold;
+    font-size: 170%;
+}
+
+.form{
+    font-family: Verdana;
+    height: 50%;
+    width: 40%;
+    font-size: 120%;
+}
+.formtext{
+    font-family: Verdana;
+    font-size: 120%;
+    width: 30%;
+    text-align: justify;
+}
+.formAndText{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+input[type="text"], textarea{
+    width: 70%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 5px;
+    border: 2px solid #888888;
+}
+input[type="button"]{
+    color: #FAF9F6;
+    background-color: #974A0F ;
+    border-radius: 5px;
+    margin-top: 1%;
+    font-size: 100%;
+}
+footer{
+    background-color: #EFE8E3 ;
+    text-align: right;
+    color: #974A0F;
+    padding: 2%;
+    font-family: arial,sans-serif;
+
+}
+.navver{
+    display: flex;
+    justify-items: center;
+    background-color: #974A0F ;
+    color: white;
+    padding: 2%;
+    align-items: center;
+}
+.navver a {
+    margin-left: 2%;
+    color: #FAF9F6;
+    text-decoration: none;
+    font-size: 120%;
+}
